@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ebay.Message.Publisher", "Ebay.Message.Publisher\Ebay.Message.Publisher.csproj", "{BC3179A6-4CD6-461C-AF8D-928B877C7E8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ebay.Message.Utilities", "Ebay.Message.Utilities\Ebay.Message.Utilities.csproj", "{35F977F7-D6A5-495C-AA60-5CF4C8B436DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ebay.Message.BroadcastHelper", "Ebay.Message.Producer\Ebay.Message.BroadcastHelper.csproj", "{B192A369-0D4F-4276-AB79-05B8372FF6C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC3179A6-4CD6-461C-AF8D-928B877C7E8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC3179A6-4CD6-461C-AF8D-928B877C7E8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC3179A6-4CD6-461C-AF8D-928B877C7E8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC3179A6-4CD6-461C-AF8D-928B877C7E8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35F977F7-D6A5-495C-AA60-5CF4C8B436DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F977F7-D6A5-495C-AA60-5CF4C8B436DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F977F7-D6A5-495C-AA60-5CF4C8B436DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F977F7-D6A5-495C-AA60-5CF4C8B436DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B192A369-0D4F-4276-AB79-05B8372FF6C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B192A369-0D4F-4276-AB79-05B8372FF6C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B192A369-0D4F-4276-AB79-05B8372FF6C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B192A369-0D4F-4276-AB79-05B8372FF6C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0AD4744E-2ECB-487C-8D0E-F4C08D5BDA56}
+	EndGlobalSection
+EndGlobal
